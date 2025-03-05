@@ -1,0 +1,41 @@
+openapi: 3.1.0
+info:
+  title: My API
+  version: 1.0.0
+paths:
+  /example:
+    get:
+      summary: "Retrieve data"
+      responses:
+        '200':
+          description: "Successful response"
+    post:
+      summary: "Create data"
+      responses:
+        '201':
+          description: "Data created successfully"
+    put:
+      summary: "Update data"
+      responses:
+        '200':
+          description: "Data updated successfully"
+    delete:
+      summary: "Delete data"
+      responses:
+        '204':
+          description: "Data deleted successfully"
+    patch:
+      summary: "Partially update data"
+      responses:
+        '200':
+          description: "Data partially updated"
+    head:
+      summary: "Head request for data"
+      responses:
+        '200':
+          description: "Successful response"
+    options:
+      summary: "Retrieve allowed methods"
+      responses:
+        '200':
+          description: "Methods allowed"
